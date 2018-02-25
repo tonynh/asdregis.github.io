@@ -1,22 +1,52 @@
 @charset "utf-8";
 /* CSS Document */
 
+body, html{
+	background: #1D1D1D;
+}
+
 ul li a{
 	color: white;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 15px;
+	border-bottom: 1px solid #343A40;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	
+	
 }
 
 ul li a:hover{
-	color: white;
-	background: #2395FF;
+	color: #27D3FF;
+	border-bottom: 1px solid #414850;
+	border-radius: 5px;
+	box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.20) inset;
+	background-color: #23272B;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	
 }
 
 .light-footer{
+	background: #1D1D1D;
+	color: #636363;
 	width: 100%;
 	height: auto;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .light-footer p{
 	font-size: 11px;
+}
+
+.light-footer p a{
+	color: #505050;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.light-footer p a:hover{
+	color: #B0B0B0;
+	text-decoration: none;
 }

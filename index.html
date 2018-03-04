@@ -22,28 +22,35 @@
     <![endif]-->
 </head>
 <body>
-	<nav class="navbar navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<ul class="nav">
 			<li class="nav-item">
 				<img src="images/odin_smallogo_2.png">
 			</li>
-			<li class="nav-link font_title"> Odin</li> <!-- separador -->
-			<li class="nav-item">
-				<a class="nav-link active" href="#"><span style="font-size: 13px" class="glyphicon glyphicon-home"></span></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" href="#">About</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Documentation</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Download</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Misc</a>
-			</li>
+			<li class="nav-link font_title"> Odin</li> <!-- separador -->	
 		</ul>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+	 	</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="nav">
+						<li class="nav-item active">
+							<a class="nav-link active" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Documentation</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Download</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Misc</a>
+						</li>
+					</ul>
+		</div>
 	</nav>
 
 	<div class="jumbotron">
@@ -57,7 +64,7 @@
 		</div>
 	</div>
 	
-	<div class="container d-flex align-content-around flex-wrap">
+	<div class="container d-flex align-content-around flex-wrap nav-block">
 	<div class="col-6 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat auctor interdum. Maecenas tempus, quam scelerisque porttitor sodales, magna tellus bibendum mauris, mattis luctus nisi turpis tempus metus. Cura bitur id dui sit amet elit varius placerat eu nec sapien.
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat auctor interdum. Maecenas tempus, quam scelerisque porttitor sodales, magna tellus bibendum mauris, mattis luctus nisi turpis tempus metus. Cura bitur id dui sit amet elit varius placerat eu nec sapien.</div>
 	<div class="col-6 text-justify">
